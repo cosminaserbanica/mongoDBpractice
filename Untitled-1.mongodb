@@ -1,0 +1,11 @@
+
+use ('myFirstDB')
+
+db.celebrities.insert({
+  'first': 'john',
+  'last': 'lennon',
+  'dob': '09/10/1940',
+  'gender': 'm',
+  'hair_color': 'brown',
+  'nationality': 'british'
+  })
